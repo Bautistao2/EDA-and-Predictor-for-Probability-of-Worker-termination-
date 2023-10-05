@@ -97,12 +97,53 @@ Column scaling was done
 
 solving the following questions
 
-Which department suffers the most from absences?
+### Which department suffers the most from absences?
 
 ![x](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/absences_by_department.png)
 
+### Which gender has the most absences?
+
+![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/absences_by_gender.png)
+
+### Which department has the most days late in the last 30 days?
+
+![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/DaysLate_by_department.png)
+
+### What is the level of employee satisfaction by department?
+
+![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/DepartmentandSatisfaction.png)
+
+### What is the employees performance score?
+
+![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/PerformanceScore.png)
+
+### Is there some relationship between the recruitment resource and worker performance?
+
+![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/RecruitmentSource_PerformanceScore.png)
+
+### Is there any difference in payment by gender?
+
+![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/SalarybyGender.png)
+
+### What has been the lowest and highest dismissal rate in the company
+
+![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/newplot.png)
 
 
-What relationship exists between the employee's department and his or her level of satisfaction?
+
+
+## 3. Build and training prediction model
+
+I made the prediction to know which employee is more likely to resign, based on certain characteristics of the employee.
+To do this I follow the usual steps:
+-Data preprocessing and division,
+-Data scaling
+-Exploring model performance of different ML regression algorithms
+-The most promising algorithm (NeuralNetwork) was adjusted.
+-The characteristics that have the greatest impact on the prediction were calculated.
+
+![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/important.png)
+
+
 
 
