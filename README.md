@@ -1,10 +1,12 @@
 # Worker Performance Exploration Analysis Data :100:
-
+<div class=text-justify>
 I performed HR analytics using the 'HR Dataset'. As a first step, we imported the necessary libraries, and then we imported the dataset in which we need to perform EDA. Before beginning with the analysis, I did some data manipulation as well
 
 I performed various queries for analysing the data for insights and also to create visualization for appealing appearance and better understanding.Thus, I successfully did the HR Data Analytics and find the insights that could extremely help the company to take decisions as per the insights obtain, for the sake of their company.
 
 I will project employees who are likely to be terminated based on a set of features
+</div>
+
 ## Description
 
 An EDAD project in wich have beed projected employees who are likely to be laid off based on a set of characteristics.
@@ -123,6 +125,8 @@ To do this I follow the usual steps:
 
 ## 4. Insights
 
+<div class=text-justify>
+
 - 60% of the employees are highly satisfied with the company and 34% are satisfied, this means that only 6% of the employees are not satisfied, so it can be said that the company has good motivation strategies, and employee retention as well as corporate culture.
 - There are only two completely dissatisfied employees and they are in the production and sales department, although production is the department with the largest number of workers, it would be good to review the sales department to know what factors can influence
 - The production department reports 8 times more employees who terminate their contract by their own decision than by cause, this means that there are disagreements among employees in the department that cause them to leave the company.
@@ -146,5 +150,7 @@ To do this I follow the usual steps:
 - Sales hires are strong when they come from Indeed and Website.
 - Employee Referral job source is considered to the strongest.
 - Salary directly influences employee satisfaction, because dissatisfied employees are those with the lowest salary.
+</div>
+
 
 
