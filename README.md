@@ -99,7 +99,8 @@ solving the following questions
 
 Which department suffers the most from absences?
 
-(https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/absences_by_department.png)
+![x](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/absences_by_department.png)
+
 
 
 What relationship exists between the employee's department and his or her level of satisfaction?
