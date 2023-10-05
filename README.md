@@ -3,7 +3,7 @@
 In this project, we will project employees who are likely to be terminated based on a set of features
 ## Description
 
-An EDAD project in wich  employees who are likely to be terminated based on a set of features we will project employees who are likely to be laid off based on a set of characteristics.
+An EDAD project in wich have beed projected employees who are likely to be laid off based on a set of characteristics.
 
 - **Employee Name :** Employee’s full name
 - **EmpID :** Employee ID is unique to each employee
@@ -48,21 +48,21 @@ Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotli
 
 ## 1. Data cleaning and feature engineering:
 
-Fix the Day Of Birth dates of the original %m/%d/%y format, which Pandas might not convert correctly.
-Remove the extra white spaces and bring the Employee_Name and ManagerName columns to the same format.
-Remove extra white spaces in the Department column and transform the values of the TermReason and HispanicLatino columns to lowercase.
-Divide the employees into active and left (terminated). 
-Add employee age and length of service (the number of years an employee has been working for the company).
-Missing values in the DateofTermination column mean that 207 persons are still employed
-Select most important columns to make the model prediction
-Apply get dummies to the categorical columns selected
-Termd is the target vector to the prediction model
-Made a balanced dataset by using SMOTE technique.
-Column scaling was done
+- Fix the Day Of Birth dates of the original %m/%d/%y format, which Pandas might not convert correctly.
+- Remove the extra white spaces and bring the Employee_Name and ManagerName columns to the same format.
+- Remove extra white spaces in the Department column and transform the values of the TermReason and - - - HispanicLatino columns to lowercase.
+- Divide the employees into active and left (terminated). 
+- Add employee age and length of service (the number of years an employee has been working for the company).
+- Missing values in the DateofTermination column mean that 207 persons are still employed
+- Select most important columns to make the model prediction
+- Apply get dummies to the categorical columns selected
+- Termd is the target vector to the prediction model
+- Made a balanced dataset by using SMOTE technique.
+- Columns scaling was done
 
 ## 2. Exploratory Data Analysis:
 
-solving the following questions
+**Solving the following questions**
 
 ### Which department suffers the most from absences?
 
