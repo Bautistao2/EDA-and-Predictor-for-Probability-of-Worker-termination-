@@ -99,7 +99,7 @@ solving the following questions
 
 Which department suffers the most from absences?
 
-(/WORKER-PERFORMANCE-EDA/images/abscences_by_department.png)
+(/images/abscences_by_department.png)
 
 
 What relationship exists between the employee's department and his or her level of satisfaction?
