@@ -1,9 +1,6 @@
-# Worker-performance-EDA
+# Worker Performance Exploration Analysis Data
+
 In this project, we will project employees who are likely to be terminated based on a set of features
-
-# worker-performance-Exploration-Analysis-Data
-
-
 ## Description
 
 An EDAD project in wich  employees who are likely to be terminated based on a set of features we will project employees who are likely to be laid off based on a set of characteristics.
