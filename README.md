@@ -54,11 +54,8 @@ Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotli
 - Divide the employees into active and left (terminated). 
 - Add employee age and length of service (the number of years an employee has been working for the company).
 - Missing values in the DateofTermination column mean that 207 persons are still employed
-- Select most important columns to make the model prediction
-- Apply get dummies to the categorical columns selected
-- Termd is the target vector to the prediction model
-- Made a balanced dataset by using SMOTE technique.
-- Columns scaling was done
+
+-
 
 ## 2. Exploratory Data Analysis:
 
@@ -103,8 +100,16 @@ Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotli
 
 I made the prediction to know which employee is more likely to resign, based on certain characteristics of the employee.
 To do this I follow the usual steps:
-- Data preprocessing and division,
+
+### Data preprocessing 
+
+- Select most important columns to make the model prediction
+- Apply get dummies to the categorical columns selected
+- Termd is the target vector to the prediction model
+- Made a balanced dataset by using SMOTE technique.
+- Columns scaling was done
 - Data scaling
+### Build a model
 - Exploring model performance of different ML regression algorithms
 - The most promising algorithm (NeuralNetwork) was adjusted.
 - The characteristics that have the greatest impact on the prediction were calculated.
