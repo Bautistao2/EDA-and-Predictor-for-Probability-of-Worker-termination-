@@ -123,17 +123,28 @@ To do this I follow the usual steps:
 
 ## 4. Insights
 
-
-
+- 60% of the employees are highly satisfied with the company and 34% are satisfied, this means that only 6% of the employees are not satisfied, so it can be said that the company has good motivation strategies, and employee retention as well as corporate culture.
+- There are only two completely dissatisfied employees and they are in the production and sales department, although production is the department with the largest number of workers, it would be good to review the sales department to know what factors can influence
+- The production department reports 8 times more employees who terminate their contract by their own decision than by cause, this means that there are disagreements among employees in the department that cause them to leave the company.
+- Indeed and LinkedIn are the top platforms from where the company hired most of the candidates
+- Although LinkedIn and Indeed are the recruiting resources that have brought the most active workers to the company, they are not the most retired workers from the company, the workers recruited through Google search have been fired more times for cause
+- At least 56% of employees terminated for cause had a high performance score, this means that any employee can be terminated for cause even when their performance is good or excellent.
+- Women have an average of 31% more absences than men. It is striking that although the sales department has only 14% of the number of employees than the production department, it has a similar absence ratio.
+- At least 90% of the company's employees have a high performance score, it can be said that in general the staff is productive
+- The employees recruited by the web application are the only candidates who do not have a low performance score
+- The special projects that an employee is developing do not indicate that they cannot have a low performance score.
+- In workers with a low degree of job satisfaction, a low performance score is found.
+- The departments where there are no workers with low performance scores are the executives and the office administration.
+- The organization pays females $2843 less than men. However, this metric is unadjusted for various factors that are known to affect salary, including job level, tenure, previous work experience, and more
 - No matter where the hire is coming from for the HR department, all employees are able to get a performance score of "Fully Meets". Top sources being Diversity Job Fair, Linked and Indeed.
 
 - ~75% of the candidates who get a performance score of "Fully Meets" are coming from Indeed followed by Linkedin.
 
 - Hires from Indeed and Linkedin will help the overall organization be productive.
-
 - Accounting hires are strong when they come from employee referrals
 - All job sources for human resources are strong.
 - Sales hires are strong when they come from Indeed and Website.
 - Employee Referral job source is considered to the strongest.
+- Salary directly influences employee satisfaction, because dissatisfied employees are those with the lowest salary.
 
 
