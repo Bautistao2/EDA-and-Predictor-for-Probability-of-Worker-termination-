@@ -1,6 +1,10 @@
-# Worker Performance Exploration Analysis Data
+# Worker Performance Exploration Analysis Data :100:
 
-In this project, we will project employees who are likely to be terminated based on a set of features
+I performed HR analytics using the 'HR Dataset'. As a first step, we imported the necessary libraries, and then we imported the dataset in which we need to perform EDA. Before beginning with the analysis, I did some data manipulation as well
+
+I performed various queries for analysing the data for insights and also to create visualization for appealing appearance and better understanding.Thus, I successfully did the HR Data Analytics and find the insights that could extremely help the company to take decisions as per the insights obtain, for the sake of their company.
+
+I will project employees who are likely to be terminated based on a set of features
 ## Description
 
 An EDAD project in wich have beed projected employees who are likely to be laid off based on a set of characteristics.
@@ -117,5 +121,19 @@ To do this I follow the usual steps:
 ![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/important.png)
 
 
+## 4. Insights
+
+
+
+- No matter where the hire is coming from for the HR department, all employees are able to get a performance score of "Fully Meets". Top sources being Diversity Job Fair, Linked and Indeed.
+
+- ~75% of the candidates who get a performance score of "Fully Meets" are coming from Indeed followed by Linkedin.
+
+- Hires from Indeed and Linkedin will help the overall organization be productive.
+
+- Accounting hires are strong when they come from employee referrals
+- All job sources for human resources are strong.
+- Sales hires are strong when they come from Indeed and Website.
+- Employee Referral job source is considered to the strongest.
 
 
