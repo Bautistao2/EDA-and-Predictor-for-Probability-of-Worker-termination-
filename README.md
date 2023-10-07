@@ -59,7 +59,7 @@ Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotli
 - Remove extra white spaces in the Department column and transform the values of the TermReason and - - - HispanicLatino columns to lowercase.
 - Divide the employees into active and left (terminated). 
 - Add employee age and length of service (the number of years an employee has been working for the company).
-- Missing values in the DateofTermination column mean that 207 persons are still employed
+- Missing values in the "Date of Termination" column mean that 207 persons are still employed
 
 -
 
@@ -113,8 +113,7 @@ To do this I follow the usual steps:
 - Apply get dummies to the categorical columns selected
 - Termd is the target vector to the prediction model
 - Made a balanced dataset by using SMOTE technique.
-- Columns scaling was done
-- Data scaling
+- Data scaling was done
 ### Build a model
 - Exploring model performance of different ML regression algorithms
 - The most promising algorithm (NeuralNetwork) was adjusted.
