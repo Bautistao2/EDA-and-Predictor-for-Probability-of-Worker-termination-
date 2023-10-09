@@ -54,7 +54,7 @@ Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotli
 
 ## 1. Data cleaning and feature engineering:
 
--- Fix the Day Of Birth dates from the original %m/%d/%y format, which Pandas might not convert correctly.
+- Fix the Day Of Birth dates from the original %m/%d/%y format, which Pandas might not convert correctly.
 - Remove the extra white spaces and convert the Employee_Name and ManagerName columns to the same format.
 - Remove extra white spaces in the Department column and transform the values of the TermReason and HispanicLatino columns to lowercase.
 - Divide the employees into active and terminated. 
@@ -64,7 +64,6 @@ Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotli
 ## 2. Exploratory Data Analysis:
 
 **Answering the following questions**
-
 ### Which department suffers the most from absences?
 
 ![x](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/absences_by_department.png)
@@ -96,9 +95,6 @@ Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotli
 ### What has been the lowest and highest dismissal rate per year?
 
 ![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/newplot.png)
-
-
-
 
 ## 3. Build and training prediction model
 
