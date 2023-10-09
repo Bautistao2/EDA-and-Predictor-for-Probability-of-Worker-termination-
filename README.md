@@ -1,15 +1,15 @@
-# Worker Performance Exploration Analysis Data :100:
+# Probability of worker termination Exploration Analysis Data :100:
 <div class=text-justify>
-I performed HR analytics using the 'HR Dataset'. As a first step, we imported the necessary libraries, and then we imported the dataset in which we need to perform EDA. Before beginning with the analysis, I did some data manipulation as well
+HR analytics were performed using the 'HR Dataset'. As a first step, the necessary libraries and dataset were imported to perform the E D A. Before beginning with the analysis, some data formatting was applying, as well.
 
-I performed various queries for analysing the data for insights and also to create visualization for appealing appearance and better understanding.Thus, I successfully did the HR Data Analytics and find the insights that could extremely help the company to take decisions as per the insights obtain, for the sake of their company.
+Various queries were performed to analyse the data for insights, and also to create an appealing and easily assimilated visualization. The insights thus acquired could be  very  helpful for the company to make decisions.
 
-I will project employees who are likely to be terminated based on a set of features
+**The analysis projects those employees who are likely to be terminated based on a set of factors.**
 </div>
 
 ## Description
 
-An EDAD project in wich have beed projected employees who are likely to be laid off based on a set of characteristics.
+An EDA project that predicts employees who are likely to be laid off based on a set of characteristics.
 
 - **Employee Name :** Employee’s full name
 - **EmpID :** Employee ID is unique to each employee
@@ -54,18 +54,16 @@ Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotli
 
 ## 1. Data cleaning and feature engineering:
 
-- Fix the Day Of Birth dates of the original %m/%d/%y format, which Pandas might not convert correctly.
-- Remove the extra white spaces and bring the Employee_Name and ManagerName columns to the same format.
-- Remove extra white spaces in the Department column and transform the values of the TermReason and - - - HispanicLatino columns to lowercase.
-- Divide the employees into active and left (terminated). 
+-- Fix the Day Of Birth dates from the original %m/%d/%y format, which Pandas might not convert correctly.
+- Remove the extra white spaces and convert the Employee_Name and ManagerName columns to the same format.
+- Remove extra white spaces in the Department column and transform the values of the TermReason and HispanicLatino columns to lowercase.
+- Divide the employees into active and terminated. 
 - Add employee age and length of service (the number of years an employee has been working for the company).
 - Missing values in the "Date of Termination" column mean that 207 persons are still employed
 
--
-
 ## 2. Exploratory Data Analysis:
 
-**Solving the following questions**
+**Answering the following questions**
 
 ### Which department suffers the most from absences?
 
@@ -83,19 +81,19 @@ Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotli
 
 ![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/DepartmentandSatisfaction.png)
 
-### What is the employees performance score?
+### What is the performance score for each employee?
 
 ![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/PerformanceScore.png)
 
-### Is there some relationship between the recruitment resource and worker performance?
+### Is there a relationship between the recruitment resource and worker performance?
 
 ![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/RecruitmentSource_PerformanceScore.png)
 
-### Is there any difference in payment by gender?
+### Is there a difference in remuneration by gender?
 
 ![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/SalarybyGender.png)
 
-### What has been the lowest and highest dismissal rate in the company
+### What has been the lowest and highest dismissal rate per year?
 
 ![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/newplot.png)
 
@@ -104,18 +102,17 @@ Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotli
 
 ## 3. Build and training prediction model
 
-I made the prediction to know which employee is more likely to resign, based on certain characteristics of the employee.
-To do this I follow the usual steps:
+Building and training the model involved the following steps:
+### Data pre-processing 
 
-### Data preprocessing 
-
-- Select most important columns to make the model prediction
-- Apply get dummies to the categorical columns selected
-- Termd is the target vector to the prediction model
-- Made a balanced dataset by using SMOTE technique.
-- Data scaling was done
-### Build a model
-- Exploring model performance of different ML regression algorithms
+- Select the most important columns for the prediction model.
+- Apply get dummies to the categoric columns selected.
+- Termd is the target vector for the prediction model.
+- Make a balanced dataset by using the SMOTE technique.
+- Perform data scaling.
+  
+### Build the model
+- Explore the model performance of different ML regression algorithms.
 - The most promising algorithm (NeuralNetwork) was adjusted.
 - The characteristics that have the greatest impact on the prediction were calculated.
 
