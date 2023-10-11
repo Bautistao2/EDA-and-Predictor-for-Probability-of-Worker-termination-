@@ -1,6 +1,6 @@
-# Probability of worker termination Exploration Analysis Data :100:
+# Probability of worker termination : Exploration Analysis Data, and predictor model :100:
 <div class=text-justify>
-HR analytics were performed using the 'HR Dataset'. As a first step, the necessary libraries and dataset were imported to perform the E D A. Before beginning with the analysis, some data formatting was applying, as well.
+HR analytics were performed using the data of a company. As a first step, the necessary libraries and dataset were imported to perform the EDA. Before beginning with the analysis, some data formatting was applying, as well.
 
 Various queries were performed to analyse the data for insights, and also to create an appealing and easily assimilated visualization. The insights thus acquired could be  very  helpful for the company to make decisions.
 
