@@ -47,7 +47,6 @@ satisfaction survey
 - **LastPerformanceReviewDate :** The most recent date of the person’s last performance review.
 - **DaysLateLast30 :** The number of times that the employee was late to work during the last 30 days
 
-
 ## Code and Resources Used
 
 Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotlib, seaborn.
@@ -117,32 +116,19 @@ Building and training the model involved the following steps:
 
 ## 4. Insights
 
-<div class=text-justify>
-
-- 60% of the employees are highly satisfied with the company and 34% are satisfied, this means that only 6% of the employees are not satisfied, so it can be said that the company has good motivation strategies, and employee retention as well as corporate culture.
-- There are only two completely dissatisfied employees and they are in the production and sales department, although production is the department with the largest number of workers, it would be good to review the sales department to know what factors can influence
-- The production department reports 8 times more employees who terminate their contract by their own decision than by cause, this means that there are disagreements among employees in the department that cause them to leave the company.
-- Indeed and LinkedIn are the top platforms from where the company hired most of the candidates
-- Although LinkedIn and Indeed are the recruiting resources that have brought the most active workers to the company, they are not the most retired workers from the company, the workers recruited through Google search have been fired more times for cause
-- At least 56% of employees terminated for cause had a high performance score, this means that any employee can be terminated for cause even when their performance is good or excellent.
-- Women have an average of 31% more absences than men. It is striking that although the sales department has only 14% of the number of employees than the production department, it has a similar absence ratio.
-- At least 90% of the company's employees have a high performance score, it can be said that in general the staff is productive
-- The employees recruited by the web application are the only candidates who do not have a low performance score
-- The special projects that an employee is developing do not indicate that they cannot have a low performance score.
-- In workers with a low degree of job satisfaction, a low performance score is found.
-- The departments where there are no workers with low performance scores are the executives and the office administration.
-- The organization pays females $2843 less than men. However, this metric is unadjusted for various factors that are known to affect salary, including job level, tenure, previous work experience, and more
-- No matter where the hire is coming from for the HR department, all employees are able to get a performance score of "Fully Meets". Top sources being Diversity Job Fair, Linked and Indeed.
-
-- ~75% of the candidates who get a performance score of "Fully Meets" are coming from Indeed followed by Linkedin.
-
-- Hires from Indeed and Linkedin will help the overall organization be productive.
-- Accounting hires are strong when they come from employee referrals
-- All job sources for human resources are strong.
-- Sales hires are strong when they come from Indeed and Website.
-- Employee Referral job source is considered to the strongest.
-- Salary directly influences employee satisfaction, because dissatisfied employees are those with the lowest salary.
-</div>
-
-
+-	60% of the employees are highly satisfied with the company, and 34% are satisfied. This means that only 6% of the employees are not satisfied. It can thus be inferred that the company has good motivation strategies and employee retention, as well as corporate culture.
+-	There are only two completely dissatisfied employees, and they are in the production and sales department. Although production is the department with the largest number of workers, it would be good to review the sales department to know what factors may be at play.
+-   The production department reports 8 times more employees who end their contract voluntarily rather than being terminated for cause. This finding implies possible sources of dissatisfaction within the department that cause them to leave the company.
+-	Indeed and LinkedIn are the top platforms from which the company sourced its candidates.
+-   Although LinkedIn and Indeed have provided the largest portion of active workers, the recruiting source with the highest number of workers subsequently terminated for cause was Google search.
+-	At least 56% of employees terminated for cause had high performance scores, This finding implies that an employee can be terminated for cause even when their performance is good or excellent. This result is concerning, since it could indicate two possible problems. Either 1) The company’s performance measurement system is flawed, or 2) The company’s termination decisions are inappropriate.
+-	Women exhibit an average of 31% more absences than men.
+-	It is noteworthy that, although the sales department has only 14% of the number of employees that the production department does, both departments present nearly the same number of total absences.
+-	At least 90% of the employees have high performance scores; implying that, in general, the staff is productive; although the aforementioned finding may cast doubt upon the reliability of the company’s performance metrics.
+-	The employees recruited via the web application are the only candidates who do not exhibit any low performance scores, whatsoever.
+-	The fact that an employee is working on special projects does not preclude their having a low performance score.
+-	Workers with low satisfaction scores also tend to have low performance scores. This could imply a positive causational relationship between the variables in either direction (i.e., low performance leads to low satisfaction or vice versa); or that another variable impacts both satisfaction and performance together (e.g., the quality of management in a given area impacts both satisfaction and performance).
+-	Only the executives and office administration departments had no workers with low performance scores.
+-	The organization pays women $2,843 less than men. However, this metric is unadjusted for various factors that are known to affect salary; including job level, tenure, previous work experience, among others.
+-	Regardless of the source of the hire, all employees are able to achieve a performance score of "Fully Meets"; although top-scoring employees are more frequently sourced from the Diversity Job Fair, Linked and Indeed.
 
