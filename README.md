@@ -132,5 +132,5 @@ Building and training the model involved the following steps:
 -	The organization pays women $2,843 less than men. However, this metric is unadjusted for various factors that are known to affect salary; including job level, tenure, previous work experience, among others.
 -	Regardless of the source of the hire, all employees are able to achieve a performance score of "Fully Meets"; although top-scoring employees are more frequently sourced from the Diversity Job Fair, Linked and Indeed.
 
-## Recomendations
+## 5. Recomendations
 
