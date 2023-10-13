@@ -49,7 +49,7 @@ satisfaction survey
 
 ## Code and Resources Used
 
-Python Version: 3.7 Packages: pandas, numpy, datetime, scipy, sklearn, matplotlib, seaborn.
+Python Version: 3.8 Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotly
 
 ## 1. Data cleaning and feature engineering:
 
