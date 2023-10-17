@@ -131,6 +131,9 @@ Building and training the model involved the following steps:
 -	Only the executives and office administration departments had no workers with low performance scores.
 -	The organization pays women $2,843 less than men. However, this metric is unadjusted for various factors that are known to affect salary; including job level, tenure, previous work experience, among others.
 -	Regardless of the source of the hire, all employees are able to achieve a performance score of "Fully Meets"; although top-scoring employees are more frequently sourced from the Diversity Job Fair, Linked and Indeed.
+-	~75% of the candidates who get a performance score of "Fully Meets" were sourced from Indeed, followed by Linkedin, implying that hires from Indeed and Linkedin will help the overall organization be productive.
+-	Salary correlates highly with employee satisfaction; however, other variables also play a role in determining satisfaction scores.
+
 
 ## 5. Recomendations
 
@@ -145,4 +148,5 @@ After analyzing the most common causes for voluntary employee departure, and con
 7. Generate brand-marketing strategies to increase the number of candidates who fill out an online web application, and incentivize current employees to refer more candidates; as both these recruitment channels are those from which the fewest employees are eventually dismissed. 
 8. Improve employee selection criteria used to select employees for production technician, production manager, and sales roles.
 9. Analyze workloads, in order to permit married employees to achieve a healthy work/life balance.
+
 
