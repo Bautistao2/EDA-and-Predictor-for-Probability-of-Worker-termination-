@@ -111,7 +111,7 @@ Building and training the model involved the following steps:
 - The most promising algorithm (NeuralNetwork) was adjusted.
 - The characteristics that have the greatest impact on the prediction were calculated.
 
-![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/important.png)
+![](https://github.com/Bautistao2/EDA-and-Predictor-for-Probability-of-Worker-termination-/blob/main/images/FactorvsScore.png)
 
 
 ## 4. Insights
@@ -133,4 +133,16 @@ Building and training the model involved the following steps:
 -	Regardless of the source of the hire, all employees are able to achieve a performance score of "Fully Meets"; although top-scoring employees are more frequently sourced from the Diversity Job Fair, Linked and Indeed.
 
 ## 5. Recomendations
+
+After analyzing the most common causes for voluntary employee departure, and considering that an employee is 5 times more likely to voluntarily depart as opposed to being dismissed for cause, it is recommended that the company analyze and address the following: 
+
+1. Review the pay scales across various positions to reduce the loss of employees to other companies that offer higher remuneration. Design non-monetary motivation strategies to increase employee satisfaction as a complement for employee salary.
+2. Implement enjoyable team-building activities to build stronger inter-employee relationships and teamwork.
+3. Create a professional growth program to train high-performing employees for future career opportunities, and to provide employees with opportunities to demonstrate their skills via the assignment of new responsibilities. 
+4. Considering that women represent both the most frequent voluntarily withdrawals, as well as those most often terminated for cause; strategies should be developed to support female employees in the performance of their jobs; and ensure gender equality in terms of salaries, responsibilities, and positions.
+5. Redesign employee satisfaction metrics to more accurately reflect employee feelings; given that currently, employees with high satisfaction scores are voluntarily leaving the company in equal measure.
+6. Implement programs to drive employee engagement in creating, innovating, researching, and carrying out special projects; considering that the great majority of employees terminated for cause are not participating in these undertakings.
+7. Generate brand-marketing strategies to increase the number of candidates who fill out an online web application, and incentivize current employees to refer more candidates; as both these recruitment channels are those from which the fewest employees are eventually dismissed. 
+8. Improve employee selection criteria used to select employees for production technician, production manager, and sales roles.
+9. Analyze workloads, in order to permit married employees to achieve a healthy work/life balance.
 
