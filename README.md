@@ -77,11 +77,11 @@ Python Version: 3.8 Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotl
 
 ### What is the level of employee satisfaction by department?
 
-![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/DepartmentandSatisfaction.png)
+![](https://github.com/Bautistao2/EDA-and-Predictor-for-Probability-of-Worker-termination-/blob/main/images/Deparments%20by%20Employment%20Satisfaction.png)
 
 ### What is the performance score for each employee?
 
-![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/PerformanceScore.png)
+![](https://github.com/Bautistao2/EDA-and-Predictor-for-Probability-of-Worker-termination-/blob/main/images/Performance%20Score.png)
 
 ### Is there a relationship between the recruitment resource and worker performance?
 
@@ -89,7 +89,7 @@ Python Version: 3.8 Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotl
 
 ### Is there a difference in remuneration by gender?
 
-![](https://github.com/Bautistao2/Worker-performance-EDA/blob/main/images/SalarybyGender.png)
+![](https://github.com/Bautistao2/EDA-and-Predictor-for-Probability-of-Worker-termination-/blob/main/images/SalaryvsFrequency.png)
 
 ### What has been the lowest and highest dismissal rate per year?
 
