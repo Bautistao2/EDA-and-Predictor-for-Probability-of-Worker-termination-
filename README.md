@@ -49,7 +49,7 @@ satisfaction survey
 
 ## Code and Resources Used
 
-Python Version: 3.8 Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotly
+Python Version: 3.8 Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotly.
 
 ## 1. Data cleaning and feature engineering:
 
@@ -107,8 +107,8 @@ Building and training the model involved the following steps:
 - Perform data scaling.
   
 ### Build the model
-- Explore the model performance of different ML regression algorithms.
-- The most promising algorithm (NeuralNetwork) was adjusted.
+- Explore the model performance of different Machine Learning classification algorithms.
+- The most promising algorithm (Decision Tree Classifier) was adjusted.
 - The characteristics that have the greatest impact on the prediction were calculated.
 
 ![](https://github.com/Bautistao2/EDA-and-Predictor-for-Probability-of-Worker-termination-/blob/main/images/FactorvsScore.png)
