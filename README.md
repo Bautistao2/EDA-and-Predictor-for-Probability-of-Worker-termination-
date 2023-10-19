@@ -1,4 +1,4 @@
-# Probability of worker termination : Exploration Analysis Data, and predictor model :100:
+# Probability of worker termination : Exploratory Data Analysis, and predictor model :100:
 <div class=text-justify>
 HR analytics were performed using the data of a company. As a first step, the necessary libraries and dataset were imported to perform the EDA. Before beginning with the analysis, some data formatting was applying, as well.
 
@@ -49,7 +49,7 @@ satisfaction survey
 
 ## Code and Resources Used
 
-Python Version: 3.8 Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotly.
+Python Version: 3.8 Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotly
 
 ## 1. Data cleaning and feature engineering:
 
