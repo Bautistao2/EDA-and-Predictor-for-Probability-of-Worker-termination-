@@ -1,6 +1,9 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import numpy as np
+
+
 
 
 def load_model():
@@ -11,6 +14,7 @@ def load_model():
 data = load_model()
 
 prediction = data["model"]
+scaler= data["scaler"]
 
 def show_predict_page():
     st.title("Predictor of worker termination")
@@ -89,8 +93,7 @@ def show_predict_page():
         'BI Developer',                      
         'BI Director',                       
         'CIO',                               
-        'Data Analyst',                      
-        'Data Analyst II',                      
+        'Data Analyst',                                         
         'Data Architect',                    
         'Database Administrator',            
         'Director of Operations',             
@@ -273,7 +276,6 @@ def show_predict_page():
     Position_CIO = 0 
     Position_Data_Analyst = 0
     Position_Data_Architect = 0
-    Position_Data_Analyst_II = 0
     Position_Database_Administrator = 0
     Position_Director_of_Operations = 0
     Position_Director_of_Sales = 0 
@@ -312,8 +314,6 @@ def show_predict_page():
        Position_CIO  = 1
     elif Position == 'Data_Analyst':
        Position_Data_Analyst  = 1 
-    elif Position == 'Data Analyst II': 
-       Position_Data_Analyst_II = 1
     elif Position == 'Data Architect':
        Position_Data_Architect  = 1  
     elif Position == 'Database Administrator': 
@@ -394,14 +394,15 @@ def show_predict_page():
     Termd=0
    
 
-    x= [EmpSatisfaction,
+    x=[EmpSatisfaction,
         SpecialProjectsCount,
-        Termd,
         MaritalDesc_Married,
         MaritalDesc_Separated,
         MaritalDesc_Single,
         MaritalDesc_Widowed,
         Sex_M,
+        Department_Executive_Office,
+        Department_IT_IS, 
         Department_Production,
         Department_Sales,
         Department_Software_Engineering,
@@ -415,7 +416,6 @@ def show_predict_page():
         Position_CIO,
         Position_Data_Analyst,
         Position_Data_Architect,
-        Position_Data_Analyst_II,
         Position_Database_Administrator,
         Position_Director_of_Operations,
         Position_Director_of_Sales,
@@ -466,18 +466,24 @@ def show_predict_page():
         RecruitmentSource_LinkedIn,
         RecruitmentSource_On_line_Web_application,
         RecruitmentSource_Other,
-        RecruitmentSource_Website]    
-     
-        
-             
-    def modelpred():
-        modelocargado=pickle.load(open('modelop1.pkl','rb'))
-        pred=modelocargado.predict([variable])
-        return variable        
+        RecruitmentSource_Website]  
+    
+      
         
     if st.button("Predecir"):
-        resultado = modelpred
-        st.subheader(x)
+                
+         x1 = [x]
+         x1 = scaler.transform(x1)
+         x1 = x1.astype(float)
+         
+         result= prediction.predict(x1)
+         if result  == 0:
+           st.write('the employee is not likely to be  fired')
+         else:
+           st.write('the employee is  likely to be  fired')
+           
+                 
+
 
 
   

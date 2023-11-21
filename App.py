@@ -1,6 +1,8 @@
 import streamlit as st
 from Pred import show_predict_page
 from PIL import Image
+import pandas
+import numpy
 
 image1 = Image.open('./images/imag1.jpg')
 image1 = image1.resize((600,300))
